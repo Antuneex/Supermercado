@@ -8,3 +8,5 @@ NO TERMINAL DO SEU AMBIENTE DE DEV Instalar as dependências
 
 pip install fastapi
 pip install uvicorn
+
+Estamos utilizando o banco de dados postgreSQL vou deixar os arquivos de criação de tabelas e insert dos dados no repositório também

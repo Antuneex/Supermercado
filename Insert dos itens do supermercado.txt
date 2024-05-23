@@ -1,0 +1,47 @@
+-- Inserir valores na tabela 'padaria'
+INSERT INTO padaria (nome, valor) VALUES 
+('pão francês', '2,50'),
+('rosquinha', '1,00'),
+('croissant', '3,00'),
+('baguete', '2,00'),
+('brioche', '2,50');
+
+-- Inserir valores na tabela 'acougue'
+INSERT INTO acougue (nome, valor) VALUES 
+('carne bovina', '15,00'),
+('frango', '10,00'),
+('linguiça', '8,00'),
+('costela suína', '20,00'),
+('cordeiro', '30,00');
+
+-- Inserir valores na tabela 'bebidas'
+INSERT INTO bebidas (nome, valor) VALUES 
+('água mineral', '2,00'),
+('suco de laranja', '4,00'),
+('cerveja', '3,50'),
+('refrigerante cola', '3,00'),
+('fanta', '1,50');
+
+-- Inserir valores na tabela 'doces'
+INSERT INTO doces (nome, valor) VALUES 
+('bolo de chocolate', '25,00'),
+('brigadeiro', '2,00'),
+('torta de morango', '30,00'),
+('cupcake', '3,50'),
+('pudim', '5,00');
+
+-- Inserir valores na tabela 'horti_fruti'
+INSERT INTO horti_fruti (nome, valor) VALUES 
+('banana', '0,50'),
+('maçã', '0,80'),
+('cenoura', '1,20'),
+('alface', '1,00'),
+('abacaxi', '3,00');
+
+-- Inserir valores na tabela 'graos'
+INSERT INTO graos (nome, valor) VALUES 
+('arroz branco', '5,00'),
+('feijão', '4,00'),
+('trigo', '3,50'),
+('milho', '2,00'),
+('quinoa', '8,00');

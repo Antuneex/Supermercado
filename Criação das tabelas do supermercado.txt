@@ -1,0 +1,41 @@
+-- Tabela para a categoria 'padaria'
+CREATE TABLE padaria (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100),
+    valor VARCHAR(10)
+);
+
+-- Tabela para a categoria 'acougue'
+CREATE TABLE acougue (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100),
+    valor VARCHAR(10)
+);
+
+-- Tabela para a categoria 'bebidas'
+CREATE TABLE bebidas (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100),
+    valor VARCHAR(10)
+);
+
+-- Tabela para a categoria 'doces'
+CREATE TABLE doces (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100),
+    valor VARCHAR(10)
+);
+
+-- Tabela para a categoria 'horti_fruti'
+CREATE TABLE horti_fruti (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100),
+    valor VARCHAR(10)
+);
+
+-- Tabela para a categoria 'graos'
+CREATE TABLE graos (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100),
+    valor VARCHAR(10)
+);
